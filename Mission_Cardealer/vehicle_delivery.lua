@@ -33,8 +33,6 @@ local vehicles = {
     "rumpo",       -- Van
     "speedo",      -- Van
     "prairie",     -- Hatchback
-    "packer",      -- Truck
-    "hauler"       -- Truck
 }
 
 local vehicle = nil
