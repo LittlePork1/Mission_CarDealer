@@ -100,7 +100,7 @@ function StartMission()
     missionStarted = true
     local playerPed = PlayerPedId()
     local model = GetRandomVehicle() -- Choisir un véhicule aléatoire
-
+    
     RequestModel(model)
     while not HasModelLoaded(model) do
         Wait(500)
@@ -110,6 +110,9 @@ function StartMission()
     vehicle = CreateVehicle(model, spawnPoint.x, spawnPoint.y, spawnPoint.z, spawnPoint.heading, true, false)
     SetVehicleNumberPlateText(vehicle, "DELIVERY")
     TaskWarpPedIntoVehicle(playerPed, vehicle, -1)
+
+    -- Donne les clés du véhicule au joueur
+    TriggerServerEvent('qb-vehiclekeys:server:AcquireVehicleKeys', QBCore.Functions.GetPlate(vehicle))
 
     -- Choisir un point de livraison aléatoire
     currentDeliveryPoint = GetRandomDeliveryPoint()
