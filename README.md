@@ -2,7 +2,7 @@
 
 ## Welcome to LittlePork1's very first script!
 
-This script is designed to add an immersive vehicle delivery mission for car dealers on GTA V servers using the QBCore framework. By integrating this script into your server, you provide your players with a unique vehicle delivery experience, complete with rewards and challenges, making the dealership role more dynamic and entertaining!
+### This script is designed to add an immersive vehicle delivery mission for car dealers on GTA V servers using the QBCore framework. By integrating this script into your server, you provide your players with a unique vehicle delivery experience, complete with rewards and challenges, making the dealership role more dynamic and entertaining!
 
 🎉 Features
 
@@ -21,17 +21,17 @@ Before adding this script, make sure your server has the following:
 
 **📦 Installation**
 
-Step 1: Clone the Project
+### Step 1: Clone the Project
 
 Clone the repository directly into your server's resources folder:
 
 git clone https://github.com/LittlePork1/Mission_CarDealer.git
 
-Step 2: Add the Resource
+### Step 2: Add the Resource
 
 Place the Mission_CarDealer folder in your resources/[qb] folder.
 
-Step 3: Configure Startup
+### Step 3: Configure Startup
 
 In your server.cfg, add the following line to start the resource with the server:
 
