@@ -1,67 +1,71 @@
-🚗 Mission CarDealer - Livraison de véhicules pour QBCore 🚗
+🚗 Mission CarDealer - Vehicle Delivery for QBCore 🚗
 
-Bienvenue dans le tout premier script de LittlePork1 !
+Welcome to LittlePork1's very first script!
 
-Ce script est conçu pour ajouter une mission de livraison de véhicules immersive pour les concessionnaires (cardealer) sur les serveurs GTA V utilisant le framework QBCore. En intégrant ce script à votre serveur, vous offrez à vos joueurs une expérience unique de livraison de véhicules avec des récompenses et des défis, rendant le métier de concessionnaire plus dynamique et divertissant !
-🎉 Fonctionnalités
+This script is designed to add an immersive vehicle delivery mission for car dealers on GTA V servers using the QBCore framework. By integrating this script into your server, you provide your players with a unique vehicle delivery experience, complete with rewards and challenges, making the dealership role more dynamic and entertaining!
 
-    🔑 Mission de livraison : Les concessionnaires peuvent commencer une mission pour livrer un véhicule à un point spécifique.
-    🚗 Véhicules aléatoires : Un véhicule est assigné au hasard à chaque mission pour plus de variété.
-    📍 Blips dynamiques : Blips clairs sur la carte pour guider le joueur jusqu’au point de départ et la destination de livraison.
-    💰 Récompenses : Paiement automatique des joueurs après une livraison réussie.
-    🛑 Gestion des échecs : Si le véhicule est perdu, la mission échoue automatiquement.
+🎉 Features
 
-🌟 Prérequis
+    🔑 Delivery Mission: Car dealers can start a mission to deliver a vehicle to a specific point.
+    🚗 Randomized Vehicles: A random vehicle is assigned for each mission to add variety.
+    📍 Dynamic Blips: Clear map blips guide the player from the starting point to the delivery destination.
+    💰 Rewards: Automatic payment is provided to players after a successful delivery.
+    🛑 Failure Handling: If the vehicle is lost, the mission automatically fails.
 
-Avant d’ajouter ce script, assurez-vous que votre serveur est configuré avec :
+🌟 Requirements
+
+Before adding this script, make sure your server has the following:
 
     QBCore Framework
-    Ressources qb-core et qb-vehiclekeys pour la gestion des clés et des véhicules.
+    qb-core and qb-vehiclekeys resources for key and vehicle management.
 
 📦 Installation
-Étape 1 : Cloner le projet
 
-Clonez le dépôt directement dans votre dossier de ressources du serveur :
+Step 1: Clone the Project
+
+Clone the repository directly into your server's resources folder:
 
 git clone https://github.com/LittlePork1/Mission_CarDealer.git
 
-Étape 2 : Ajouter la ressource
+Step 2: Add the Resource
 
-Placez le dossier Mission_CarDealer dans votre dossier resources/[qb].
-Étape 3 : Configurer le démarrage
+Place the Mission_CarDealer folder in your resources/[qb] folder.
 
-Dans votre server.cfg, ajoutez la ligne suivante pour démarrer la ressource avec le serveur :
+Step 3: Configure Startup
+
+In your server.cfg, add the following line to start the resource with the server:
 
 ensure Mission_CarDealer
 
-🚀 Utilisation
-Démarrer une mission
+🚀 Usage
 
-    Accès requis : Seuls les joueurs avec le métier cardealer peuvent démarrer une mission.
-    Point de départ : Un blip "Démarrer la livraison" apparaît pour les concessionnaires.
-    Début de la mission : En approchant du point et en appuyant sur E, le joueur démarre la mission. Un véhicule aléatoire est généré, et un point de livraison est assigné.
-    Livraison réussie : Si le joueur atteint le point de livraison avec le véhicule, il reçoit un paiement de 250.
-    Mission échouée : Si le joueur perd le véhicule, la mission est annulée et le joueur est informé de l’échec.
+Starting a Mission
 
-Commandes disponibles
+    Access Required: Only players with the cardealer job can start a mission.
+    Starting Point: A "Start Delivery" blip will appear for players with the dealer role.
+    Starting the Mission: By approaching the starting point and pressing E, the player will begin the mission. A random vehicle is generated, and a delivery point is assigned.
+    Successful Delivery: If the player reaches the delivery point with the vehicle, they receive a payment of 250.
+    Mission Failure: If the player loses the vehicle, the mission is canceled, and they are notified of the failure.
 
-    /finlivraison : Annule la mission en cours, pratique si le joueur souhaite abandonner la livraison.
+Available Commands
 
-⚙️ Configuration et Personnalisation
+    /finlivraison: Cancels the current mission, useful if the player wants to abandon the delivery.
 
-Vous pouvez ajuster plusieurs paramètres dans le script :
+⚙️ Configuration and Customization
 
-    Position de démarrage de la mission : Modifiable via startMissionPoint.
-    Point de spawn du véhicule : Configurable dans spawnPoint.
-    Points de livraison : Ajoutez ou modifiez les points dans deliveryPoints.
-    Véhicules disponibles : Ajoutez ou retirez des modèles dans vehicles pour varier les livraisons.
+You can adjust several parameters within the script:
 
-📂 Structure du Projet
+    Mission Start Location: Modifiable through startMissionPoint.
+    Vehicle Spawn Point: Configurable in spawnPoint.
+    Delivery Points: Add or modify points in deliveryPoints.
+    Available Vehicles: Add or remove models in vehicles to diversify the deliveries.
+
+📂 Project Structure
 
 Mission_CarDealer/
-├── client.lua      # Script côté client
-├── server.lua      # Script côté serveur
-├── fxmanifest.lua  # Configuration de la ressource pour FiveM
+├── client.lua      # Client-side script
+├── server.lua      # Server-side script
+├── fxmanifest.lua  # Resource configuration for FiveM
 └── README.md       # Documentation
 
-Merci d'avoir découvert et utilisé ce premier script de LittlePork1 ! C'est avec beaucoup de passion que ce projet a été créé pour offrir un gameplay enrichi à la communauté FiveM. Votre soutien et vos retours sont les bienvenus !
+Thank you for checking out and using LittlePork1's first script! This project was created with a lot of passion to enhance the gameplay experience for the FiveM community. Your support and feedback are much appreciated!
