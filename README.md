@@ -1,6 +1,6 @@
 # **🚗 Mission CarDealer - Vehicle Delivery for QBCore 🚗**
 
-# # Welcome to LittlePork1's very first script!
+## Welcome to LittlePork1's very first script!
 
 This script is designed to add an immersive vehicle delivery mission for car dealers on GTA V servers using the QBCore framework. By integrating this script into your server, you provide your players with a unique vehicle delivery experience, complete with rewards and challenges, making the dealership role more dynamic and entertaining!
 
@@ -68,4 +68,4 @@ Mission_CarDealer/
 ├── fxmanifest.lua  # Resource configuration for FiveM
 └── README.md       # Documentation
 
-##Thank you for checking out and using LittlePork1's first script! This project was created with a lot of passion to enhance the gameplay experience for the FiveM community. Your support and feedback are much appreciated!
+## Thank you for checking out and using LittlePork1's first script! This project was created with a lot of passion to enhance the gameplay experience for the FiveM community. Your support and feedback are much appreciated!
