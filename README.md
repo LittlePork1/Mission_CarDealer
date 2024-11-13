@@ -1,6 +1,6 @@
 # **🚗 Mission CarDealer - Vehicle Delivery for QBCore 🚗**
 
-Welcome to LittlePork1's very first script!
+# # Welcome to LittlePork1's very first script!
 
 This script is designed to add an immersive vehicle delivery mission for car dealers on GTA V servers using the QBCore framework. By integrating this script into your server, you provide your players with a unique vehicle delivery experience, complete with rewards and challenges, making the dealership role more dynamic and entertaining!
 
@@ -12,14 +12,14 @@ This script is designed to add an immersive vehicle delivery mission for car dea
     💰 Rewards: Automatic payment is provided to players after a successful delivery.
     🛑 Failure Handling: If the vehicle is lost, the mission automatically fails.
 
-🌟 Requirements
+**🌟 Requirements**
 
 Before adding this script, make sure your server has the following:
 
     QBCore Framework
     qb-core and qb-vehiclekeys resources for key and vehicle management.
 
-📦 Installation
+**📦 Installation**
 
 Step 1: Clone the Project
 
@@ -37,7 +37,7 @@ In your server.cfg, add the following line to start the resource with the server
 
 ensure Mission_CarDealer
 
-🚀 Usage
+**🚀 Usage**
 
 Starting a Mission
 
@@ -51,7 +51,7 @@ Available Commands
 
     /finlivraison: Cancels the current mission, useful if the player wants to abandon the delivery.
 
-⚙️ Configuration and Customization
+**⚙️ Configuration and Customization**
 
 You can adjust several parameters within the script:
 
@@ -60,7 +60,7 @@ You can adjust several parameters within the script:
     Delivery Points: Add or modify points in deliveryPoints.
     Available Vehicles: Add or remove models in vehicles to diversify the deliveries.
 
-📂 Project Structure
+**📂 Project Structure**
 
 Mission_CarDealer/
 ├── client.lua      # Client-side script
@@ -68,4 +68,4 @@ Mission_CarDealer/
 ├── fxmanifest.lua  # Resource configuration for FiveM
 └── README.md       # Documentation
 
-Thank you for checking out and using LittlePork1's first script! This project was created with a lot of passion to enhance the gameplay experience for the FiveM community. Your support and feedback are much appreciated!
+##Thank you for checking out and using LittlePork1's first script! This project was created with a lot of passion to enhance the gameplay experience for the FiveM community. Your support and feedback are much appreciated!
