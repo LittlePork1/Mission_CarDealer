@@ -68,4 +68,8 @@ Mission_CarDealer/
 ├── fxmanifest.lua  # Resource configuration for FiveM
 └── README.md       # Documentation
 
-## Thank you for checking out and using LittlePork1's first script! This project was created with a lot of passion to enhance the gameplay experience for the FiveM community. Your support and feedback are much appreciated!
+## Thank you for checking out and using LittlePork1's first script! This project was created with a lot of passion to enhance the gameplay experience for the FiveM community. Your support and feedback are much appreciated! I do not guarantee an answer !
+
+## 💬 Contributions & Feedback
+
+## Feel free to contribute to the project by creating pull requests or opening issues. Your feedback is greatly appreciated!
