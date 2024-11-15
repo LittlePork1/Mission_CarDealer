@@ -51,7 +51,7 @@ Starting a Mission
 
 Available Commands
 
-    /finlivraison: Cancels the current mission, useful if the player wants to abandon the delivery.
+    /endmission: Cancels the current mission, useful if the player wants to abandon the delivery.
 
 **⚙️ Configuration and Customization**
 
