@@ -63,13 +63,13 @@ You can adjust several parameters within the script:
     Available Vehicles: Add or remove models in vehicles to diversify the deliveries.
 
 **📂 Project Structure**
-
+```
 Mission_CarDealer/
 ├── client.lua      # Client-side script
 ├── server.lua      # Server-side script
 ├── fxmanifest.lua  # Resource configuration for FiveM
 └── README.md       # Documentation
-
+```
 ## Thank you for checking out and using LittlePork1's first script! This project was created with a lot of passion to enhance the gameplay experience for the FiveM community. Your support and feedback are much appreciated! I do not guarantee an answer !
 
 ## 💬 Contributions & Feedback
