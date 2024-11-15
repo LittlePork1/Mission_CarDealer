@@ -207,6 +207,6 @@ Citizen.CreateThread(function()
 end)
 
 -- Commande pour terminer la mission manuellement
-RegisterCommand("finlivraison", function(source, args, rawCommand)
+RegisterCommand("endmission", function(source, args, rawCommand)
     EndMission(false)
 end, false)
